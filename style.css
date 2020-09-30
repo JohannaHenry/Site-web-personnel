@@ -1,0 +1,496 @@
+html, body {
+    height: 100%;
+    margin: 0; padding: 0;
+}
+
+body {
+    display: table;
+    width: 100%;
+}
+
+.style {
+    display: none;
+}
+
+.style2 {
+    color: white;
+}
+
+body {
+    background-color: #204969;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100%;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* MENU */
+nav {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    overflow: auto;
+    margin: 0px;
+    background-color: lightblue;
+    padding-left: 0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    border-top: 4px solid lightblue;
+    border-bottom: 4px solid lightblue;
+    padding: 20px 20px;
+    margin: 0 20px;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+li a:hover:not(#currentTab) {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 20px;
+    margin-top: 14px;
+}
+
+#currentTab {
+    background-color: #031634;
+}
+
+
+/* Photos Accueil */
+.en-tête {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.en-tête div {
+    text-align: center;
+    width: 285px;
+}
+
+#portrait {
+    float: left;
+    width: 60%;
+    padding-left: 30px;
+}
+
+#logo_polytech {
+    float: right;
+    width: 100%;
+    padding-right: 30px;
+}
+
+.header_center {
+    padding-top: 20px;
+    text-align: center;
+    color: #B8E0FF;
+    font-size: 2.02em;
+}
+
+
+/* Texte Accueil */
+#bienvenue {
+    text-align: center;
+    font-size: 1.4em;
+    padding-bottom: 30px;
+}
+
+#bonne_visite {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.Presentation {
+    border-style: double;
+    border-width: 8px;
+    margin: 40px 80px 0px;
+    padding: 30px;
+    text-align: justify;
+    /*background-color: rgba(169,188,245,0.85);*/
+    background-color: #DFF2FF;
+    font-size: 1.05em;
+    box-shadow: 5px 10px 18px #28323B;
+}
+
+.top {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 150px;
+}
+
+.top a {
+    color: #031634;
+}
+
+
+/* Pied de page */
+footer {
+    display: table-row;
+    height: 100px;
+    padding-top: 50px;
+    color: #ecfcff;
+    bottom: 0;
+    padding-bottom: 0;
+}
+
+.pied_page {
+    background-color: #031634;
+}
+
+.contact {
+    padding-top: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#infos i {
+    color: #ecfcff;
+    width: 20px;
+    margin-right: 8px;
+}
+
+#infos {
+    float: left;
+    font-size: 16px;
+}
+
+.reseaux {
+    float: right;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.reseaux a {
+    color: #ecfcff;
+    font-size: 22px;
+}
+
+.verif {
+    text-align: center;
+}
+
+.verif img {
+    width: 88px;
+    height: 31px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+/* CV */
+.haut {
+    padding-top: 100px;
+    text-align: center;
+    color: #C7E6FF;
+    font-size: 1.6em;
+    padding-bottom: 70px;
+}
+
+#cv {
+    display: block;
+    margin: 0 auto;
+    width: 650px;
+    height: 820px;
+}
+
+
+/* Projets */
+.ligne {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 55px;
+}
+
+.ligne2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.image_text img {
+    padding-left: 37px;
+    width: 200px;
+}
+
+.ligne img:hover {
+    opacity: 0.6;
+}
+
+.ligne2 img:hover {
+    opacity: 0.7;
+}
+
+.contour {
+    width: 215px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding:8px;
+    text-align: center;
+    background-color: #ecfcff;
+}
+
+.ligne img:hover {
+    filter: opacity(50%);
+}
+
+
+/* Liens */
+.liens a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+.liens {
+    margin: 0 300px 70px;
+    padding: 10px 0;
+    background-color: #ecfcff;
+    border-radius: 100px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 3.5%;
+    padding-right: 16%;
+    padding-left: 16%;
+    margin-bottom: 15px;
+}
+
+
+/* Contact */
+.avis {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+
+#form_avis {
+    background-color: lightblue;
+    width: 350px;
+}
+
+#milieu {
+    padding: 30px 95px 10px;
+}
+
+#centre {
+    text-align: center;
+}
+
+#form_avis input[type=text] {
+    width: 95%;
+    height: 22px;
+}
+
+#form_avis input[type=submit] {
+    background-color: #204969;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 8px 0 25px 0px;
+}
+
+.map {
+    margin-left: 50px;
+}
+
+#frame {
+    border: none;
+    width: 420px;
+    height: 500px;
+}
+
+
+/* Forum */
+/* ---- Formulaires de connexion/inscription ---- */
+.step {
+    color: #204969;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 30% 2% 30%;
+    background-color: khaki;
+}
+
+
+#forum {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 160px;
+}
+
+.connect_inscript {
+    color: #204969;
+}
+
+#forum div {
+    width: 25%;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+#forum form {
+    padding-top: 5px;
+}
+
+#forum input[type=text], input[type=password] {
+    width: 70%;
+    height: 25px;
+}
+
+#forum input[type=submit] {
+    background-color: #204969;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    font-size: 15px;
+    padding: 14px 20px;
+    margin: 8px 0 25px 0px;
+}
+
+#forum a {
+    text-decoration: none;
+    color: #204969;
+}
+
+#changer_connexion {
+    display: block;
+    text-align:center;
+    text-decoration: none;
+    color: lightblue;
+    margin-top: 40px;
+}
+
+
+/* Listpost */
+/* ---- Affichage des messages ---- */
+#legende {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:lightblue;
+    margin: 0 5%;
+    padding-right: 1.5%;
+    padding-left: 2%;
+}
+
+#legende div {
+    color: #204969;
+    padding: 0 0.6%;
+    margin: 0.5%;
+}
+
+.legende_post_id {
+    width: 5%;
+    margin-left: 2%;
+}
+
+.legende_date {
+    width: 15%;
+}
+
+.legende_pseudo {
+    width: 15%;
+}
+
+.legende_title {
+    width: 20%;
+}
+
+.legende_message {
+    width: 35%;
+    margin-right: 4%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightblue;
+    margin: 20px 5% 4% 5%;
+}
+
+
+.ligne_message {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5%;
+}
+
+
+.ligne_message div {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    border: .065rem solid #204969;
+    padding: 1% 0.6% 1% 0.6%;
+    margin: 0.5%;
+
+}
+
+.post_id {
+    width: 5%;
+    margin-left: 2%;
+}
+
+.date {
+    width: 15%;
+}
+
+.nickname {
+    width: 15%;
+}
+
+.title {
+    width: 20%;
+}
+
+.message {
+    width: 35%;
+    margin-right: 4%;
+}
+
+
